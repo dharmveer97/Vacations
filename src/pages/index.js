@@ -1,0 +1,32 @@
+import React from 'react';
+import styled from 'styled-components';
+
+import Seo from '../components/Seo';
+import Layout from '../components/Layout';
+import Header from '../components/Header';
+import HeroHeader from '../components/HeroHeader';
+import Input from '../components/Input';
+
+const TopContainer = styled.div`
+  background-image: url(/images/main.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  @media screen and (max-width: 600px) {
+    background-size: 100% 100%;
+  }
+  }
+`;
+export default class IndexPage extends React.Component {
+  render() {
+    return (
+      <Layout>
+        <Seo title="Home" description="Welcome to GatsbyJs v1" />
+        <TopContainer>
+          <Header />
+          <HeroHeader title="HERO" description="Welcome to GatsbyJs v1" />
+        </TopContainer>
+        <Input />
+      </Layout>
+    );
+  }
+}
