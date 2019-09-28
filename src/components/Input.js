@@ -3,8 +3,12 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   .box {
-    margin-top: -3rem;
+    margin: -3rem 7rem 3rem;
     position: relative;
+    @media only screen and (max-width: 600px) {
+      margin: 0;
+      margin-top: 0;
+    }
   }
   .label {
     font-size: 0.9rem;

@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 import Header from '../components/Header';
 import HeroHeader from '../components/HeroHeader';
 import Input from '../components/Input';
+import Destination from '../components/Destination';
 
 const TopContainer = styled.div`
   background-image: url(/images/main.jpg);
@@ -26,6 +27,7 @@ export default class IndexPage extends React.Component {
           <HeroHeader title="HERO" description="Welcome to GatsbyJs v1" />
         </TopContainer>
         <Input />
+        <Destination />
       </Layout>
     );
   }
