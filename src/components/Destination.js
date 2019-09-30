@@ -17,7 +17,21 @@ const Destination = () => (
                   <span className="icon is-large is-size-1 has-text-warning">
                     <i className="fas fa-walking" />
                   </span>
-                  <p className="title is-4">Activities</p>
+                  <p className="title is-4 is-spaced">Activities</p>
+                  <p className="subtitle is-6">
+                    A small river named Duden flows by their place and supplies
+                    it with the necessary
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="column is-half">
+              <div className="media">
+                <div className="media-content">
+                  <span className="icon is-large is-size-1 has-text-warning">
+                    <i className="fas fa-map" />
+                  </span>
+                  <p className="title is-4 is-spaced">Travel Arrangements</p>
                   <p className="subtitle is-6">
                     A small river named Duden flows by their place and supplies
                     it with the necessary
@@ -31,7 +45,7 @@ const Destination = () => (
                   <span className="icon is-large is-size-1 has-text-warning">
                     <i className="fas fa-route" />
                   </span>
-                  <p className="title is-4">Travel Arrangements</p>
+                  <p className="title is-4 is-spaced">Private Guide</p>
                   <p className="subtitle is-6">
                     A small river named Duden flows by their place and supplies
                     it with the necessary
@@ -43,23 +57,9 @@ const Destination = () => (
               <div className="media">
                 <div className="media-content">
                   <span className="icon is-large is-size-1 has-text-warning">
-                    <i className="fas fa-home" />
+                    <i className="fas fa-user-shield" />
                   </span>
-                  <p className="title is-4">Private Guide</p>
-                  <p className="subtitle is-6">
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="column is-half">
-              <div className="media">
-                <div className="media-content">
-                  <span className="icon is-large is-size-1 has-text-warning">
-                    <i className="fas fa-home" />
-                  </span>
-                  <p className="title is-4">Location Manager</p>
+                  <p className="title is-4 is-spaced">Location Manager</p>
                   <p className="subtitle is-6">
                     A small river named Duden flows by their place and supplies
                     it with the necessary
@@ -72,7 +72,9 @@ const Destination = () => (
         <div className="column is-half">
           <div className="">
             <div className="container">
-              <h1 className="title is-1">It s time to start your adventure</h1>
+              <h1 className="title is-1 is-spaced is-uppercase">
+                It s time to start your adventure
+              </h1>
               <p className="subtitle">
                 A small river named Duden flows by their place and supplies it
                 with the necessary regelialia. It is a paradisematic country, in
