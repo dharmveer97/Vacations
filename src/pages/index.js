@@ -8,6 +8,7 @@ import HeroHeader from '../components/HeroHeader';
 import Input from '../components/Input';
 import Destination from '../components/Destination';
 import Taur from '../components/Taur';
+import Places from '../components/Places';
 
 const TopContainer = styled.div`
   background-image: url(/images/main.jpg);
@@ -30,6 +31,7 @@ export default class IndexPage extends React.Component {
         <Input />
         <Destination />
         <Taur />
+        <Places />
       </Layout>
     );
   }
