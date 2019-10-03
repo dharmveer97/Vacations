@@ -9,6 +9,8 @@ import Input from '../components/Input';
 import Destination from '../components/Destination';
 import Taur from '../components/Taur';
 import Places from '../components/Places';
+import CardContent from '../components/CardContent';
+import BeachContent from '../components/BeachContent';
 
 const TopContainer = styled.div`
   background-image: url(/images/main.jpg);
@@ -32,6 +34,8 @@ export default class IndexPage extends React.Component {
         <Destination />
         <Taur />
         <Places />
+        <CardContent />
+        <BeachContent />
       </Layout>
     );
   }
