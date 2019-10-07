@@ -58,6 +58,9 @@ const GlobalStyle = createGlobalStyle`
   .button {
     font-family: ${theme.primaryFontFamily};
   }
+  .columns{
+    margin-right:0rem !important;
+  }
   p {
     line-height: 1.5rem;
   }
