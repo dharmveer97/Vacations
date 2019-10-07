@@ -11,6 +11,7 @@ import Taur from '../components/Taur';
 import Places from '../components/Places';
 import CardContent from '../components/CardContent';
 import BeachContent from '../components/BeachContent';
+import FeedBackData from '../components/FeedBackData';
 
 const TopContainer = styled.div`
   background-image: url(/images/main.jpg);
@@ -36,6 +37,7 @@ export default class IndexPage extends React.Component {
         <Places />
         <CardContent />
         <BeachContent />
+        <FeedBackData />
       </Layout>
     );
   }
