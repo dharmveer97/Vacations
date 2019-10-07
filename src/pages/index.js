@@ -12,6 +12,7 @@ import Places from '../components/Places';
 import CardContent from '../components/CardContent';
 import BeachContent from '../components/BeachContent';
 import FeedBackData from '../components/FeedBackData';
+import Footer from '../components/Footer';
 
 const TopContainer = styled.div`
   background-image: url(/images/main.jpg);
@@ -38,6 +39,7 @@ export default class IndexPage extends React.Component {
         <CardContent />
         <BeachContent />
         <FeedBackData />
+        <Footer />
       </Layout>
     );
   }
