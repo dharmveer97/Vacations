@@ -16,7 +16,7 @@ const BeachContent = () => (
             icon="fas fa-map"
             home="fas fa-bath"
             king="fas fa-chess-king"
-            mountain="fas fa-tram"
+            mountain="fas fa-pen-nib"
           />
         </div>
         <div className="column is-one-third">
@@ -29,7 +29,7 @@ const BeachContent = () => (
             icon="fas fa-map"
             home="fas fa-bath"
             king="fas fa-chess-king"
-            mountain="fas fa-tram"
+            mountain="fas fa-pen-nib"
           />
         </div>
         <div className="column is-one-third">
@@ -42,7 +42,7 @@ const BeachContent = () => (
             icon="fas fa-map"
             home="fas fa-bath"
             king="fas fa-chess-king"
-            mountain="fas fa-tram"
+            mountain="fas fa-pen-nib"
           />
         </div>
         <div className="column is-one-third">
@@ -55,7 +55,7 @@ const BeachContent = () => (
             icon="fas fa-map"
             home="fas fa-bath"
             king="fas fa-chess-king"
-            mountain="fas fa-tram"
+            mountain="fas fa-pen-nib"
           />
         </div>
         <div className="column is-one-third">
@@ -68,7 +68,7 @@ const BeachContent = () => (
             icon="fas fa-map"
             home="fas fa-bath"
             king="fas fa-chess-king"
-            mountain="fas fa-tram"
+            mountain="fas fa-pen-nib"
           />
         </div>
         <div className="column is-one-third">
@@ -81,7 +81,7 @@ const BeachContent = () => (
             icon="fas fa-map"
             home="fas fa-bath"
             king="fas fa-chess-king"
-            mountain="fas fa-tram"
+            mountain="fas fa-pen-nib"
           />
         </div>
       </div>

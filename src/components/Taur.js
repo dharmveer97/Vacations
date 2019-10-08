@@ -42,7 +42,7 @@ const Taur = () => (
                 they live in Bookmarksgrove right at the coast of the Semantics,
                 a large language ocean.
               </p>
-              <nav className="level is-mobile limited">
+              <nav className="level ">
                 <div className="level-item has-text-centered">
                   <div>
                     <p className="title has-text-warning">300</p>

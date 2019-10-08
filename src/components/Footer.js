@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Section = styled.div`
-  background-color: #27262c;
+  background-color: #d1cfdc;
   .footer {
-    background-color: #27262c;
+    background-color: #d1cfdc;
   }
   li {
     line-height: 1.55;

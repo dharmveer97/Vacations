@@ -3,6 +3,9 @@ import styled from 'styled-components';
 
 const Section = styled.div`
   background: #f1f1f1;
+  .is-large {
+    margin-bottom: 12px;
+  }
 `;
 
 const Destination = () => (
