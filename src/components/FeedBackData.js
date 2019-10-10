@@ -4,13 +4,14 @@ import FeedBack from './FeedBack';
 
 const Wrapper = styled.div`
   background-image: url(https://colorlib.com/preview/theme/vacation/images/bg_3.jpg);
+  padding: 7rem 0rem;
 `;
 
 const FeedBackData = () => (
   <Wrapper>
+    <h1 className="title is-1 has-text-centered">Tourist Feedback</h1>
     <section className="section">
       <div className="container">
-        <h1 className="title is-1 has-text-centered">Tourist Feedback</h1>
         <div className="columns">
           <div className="column is-one-third">
             <FeedBack

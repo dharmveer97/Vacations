@@ -5,6 +5,9 @@ const Container = styled.div`
   margin-top: 2rem;
   margin-bottom: 4rem;
   text-align: center;
+  .text-one {
+    color: #eae4e4 !important;
+  }
 `;
 
 const HeroHeader = () => (
@@ -15,13 +18,13 @@ const HeroHeader = () => (
           <section className="hero is-medium">
             <div className="hero-body">
               <div className="container ">
-                <h1 className="subtitle is-size-5 is-size-5-mobile has-text-white-bis">
+                <h1 className="subtitle is-size-5 is-size-5-mobile text-one">
                   Travel to the any corner of the world,
                 </h1>
-                <h2 className="title is-1 is-size-4-mobile has-text-white-bis">
+                <h2 className="title is-1 is-size-4-mobile text-one">
                   Make Your Tour Amazing
                 </h2>
-                <h2 className="title is-1 is-size-4-mobile has-text-white">
+                <h2 className="title is-1 is-size-4-mobile text-one">
                   With Us
                 </h2>
               </div>
