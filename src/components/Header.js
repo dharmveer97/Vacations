@@ -26,6 +26,8 @@ const Section = styled.section`
   .navbar-item {
     font-weight: 700;
     font-size: 1.2rem;
+    border-radius: 16px;
+    transition: color 2s;
     :hover {
       color: ${props => props.theme.darkAccent};
     }
@@ -34,7 +36,6 @@ const Section = styled.section`
     background-color: #1c1323;
     color: #fff;
     opacity: 0.6;
-    border-radius: 4px;
   }
 `;
 
@@ -100,12 +101,12 @@ export default class Header extends React.Component {
                 <Link to="/contact" className="navbar-item">
                   Blog
                 </Link>
-                <Link to="/contact" className="navbar-item">
+                <Link to="/contact" className="navbar-item is-rounded">
                   Contact
                 </Link>
                 <div className="navbar-item">
                   <div className="buttons">
-                    <a className="button is-warning">Book Now</a>
+                    <a className="button is-warning is-rounded">Book Now</a>
                   </div>
                 </div>
               </div>
