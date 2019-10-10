@@ -17,18 +17,21 @@ const FeedBack = props => {
   return (
     <Wrapper>
       <div className="card">
-        <p className="card-header-title allltext">{text}</p>
-        <div className="media">
-          <div className="media-left">
-            <figure className="image is-48x48">
-              <img className="is-rounded" src={img} alt="namesss" />
-            </figure>
+        <section className="section">
+          <p className="card-header-title allltext">{text}</p>
+
+          <div className="media">
+            <div className="media-left">
+              <figure className="image is-48x48">
+                <img className="is-rounded" src={img} alt="namesss" />
+              </figure>
+            </div>
+            <div className="media-content">
+              <p className="title is-4">{Name}</p>
+              <p className="subtitle is-6">{Position} 5</p>
+            </div>
           </div>
-          <div className="media-content">
-            <p className="title is-4">{Name}</p>
-            <p className="subtitle is-6">{Position} 5</p>
-          </div>
-        </div>
+        </section>
       </div>
     </Wrapper>
   );

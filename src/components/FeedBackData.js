@@ -14,7 +14,7 @@ const FeedBackData = () => (
         <div className="columns">
           <div className="column is-one-third">
             <FeedBack
-              text="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+              text="Far far away, behind the word mountains, far from the countries Vokalia and word mountains, far from the countrie, there live the blind texts."
               subtext="wddw"
               img="https://colorlib.com/preview/theme/vacation/images/person_2.jpg"
               Name="Roger Scott"
@@ -23,7 +23,7 @@ const FeedBackData = () => (
           </div>
           <div className="column is-one-third">
             <FeedBack
-              text="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+              text="Far far away, behind the word mountains, far from the countries Vokalia and word mountains, far from the countrie, there live the blind texts."
               subtext="wddw"
               img="https://colorlib.com/preview/theme/vacation/images/person_1.jpg"
               Name="Roger Scott"
@@ -32,7 +32,7 @@ const FeedBackData = () => (
           </div>
           <div className="column is-one-third">
             <FeedBack
-              text="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+              text="Far far away, behind the word mountains, far from the countries Vokalia and word mountains, far from the countrie, there live the blind texts."
               subtext="wddw"
               img="https://colorlib.com/preview/theme/vacation/images/person_2.jpg"
               Name="Roger Scott"
