@@ -7,6 +7,14 @@ const Container = styled.div`
   text-align: center;
   .text-one {
     color: #eae4e4 !important;
+    @media only screen and (max-width: 768px) {
+       {
+        color: #080808 !important;
+      }
+    }
+  }
+  .is-medium {
+    margin-top: -4rem;
   }
 `;
 
