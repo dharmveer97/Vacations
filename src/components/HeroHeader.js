@@ -18,30 +18,32 @@ const Container = styled.div`
   }
 `;
 
-const HeroHeader = () => (
-  <section className="section">
-    <Container className="container">
-      <div className="columns">
-        <div className="column">
-          <section className="hero is-medium">
-            <div className="hero-body">
-              <div className="container ">
-                <h1 className="subtitle is-size-5 is-size-5-mobile text-one">
-                  Travel to the any corner of the world,
-                </h1>
-                <h2 className="title is-1 is-size-4-mobile text-one">
-                  Make Your Tour Amazing
-                </h2>
-                <h2 className="title is-1 is-size-4-mobile text-one">
-                  With Us
-                </h2>
-              </div>
+class HomeHero extends React.Component {
+  render() {
+    const { header } = this.props;
+    return (
+      <section className="section">
+        <Container className="container">
+          <div className="columns">
+            <div className="column">
+              <section className="hero is-medium">
+                <div className="hero-body">
+                  <div className="container ">
+                    <h1 className="subtitle is-size-5 is-size-5-mobile text-one">
+                      {header.subtitle}
+                    </h1>
+                    <h2 className="title is-1 is-size-4-mobile text-one">
+                      {header.title}
+                    </h2>
+                  </div>
+                </div>
+              </section>
             </div>
-          </section>
-        </div>
-      </div>
-    </Container>
-  </section>
-);
+          </div>
+        </Container>
+      </section>
+    );
+  }
+}
 
-export default HeroHeader;
+export default HomeHero;

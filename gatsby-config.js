@@ -9,6 +9,15 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `9qirbpwbs2yz`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: 'iDZPzgivz8b1ZTKjlYhV2c6fUrG_QElZrN7zDcjQ7ig',
+        host: `preview.contentful.com`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         defaultLayouts: {

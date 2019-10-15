@@ -58,7 +58,6 @@ export default class Header extends React.Component {
 
   render() {
     const { isActive } = this.state;
-
     return (
       <Section className="section">
         <div className="container">

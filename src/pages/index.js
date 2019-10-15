@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { StaticQuery, graphql } from 'gatsby';
 
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
@@ -15,7 +16,7 @@ import FeedBackData from '../components/FeedBackData';
 import Footer from '../components/Footer';
 
 const TopContainer = styled.div`
-  background-image: url(/images/main.jpg);
+  background-image: url(${props => props.image});
   background-size: 100%;
   background-repeat: no-repeat;
   @media screen and (max-width: 600px) {
@@ -23,23 +24,52 @@ const TopContainer = styled.div`
   }
   }
 `;
+
+export const indexQuery = graphql`
+  query Header {
+    contentfulHeader {
+      title
+      subtitle
+      backgroundImage {
+        file {
+          url
+        }
+      }
+    }
+  }
+`;
+
 export default class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
         <Seo title="Home" description="Welcome to GatsbyJs v1" />
-        <TopContainer>
-          <Header />
-          <HeroHeader title="HERO" description="Welcome to GatsbyJs v1" />
-        </TopContainer>
-        <Input />
-        <Destination />
-        <Taur />
-        <Places />
-        <CardContent />
-        <BeachContent />
-        <FeedBackData />
-        <Footer />
+        <StaticQuery
+          query={indexQuery}
+          render={data => {
+            const { contentfulHeader: header } = data;
+            return (
+              <React.Fragment header={header}>
+                <TopContainer image={header.backgroundImage.file.url}>
+                  <Header />
+                  <HeroHeader
+                    header={header}
+                    title="HERO"
+                    description="Welcome to GatsbyJs v1"
+                  />
+                </TopContainer>
+                <Input />
+                <Destination />
+                <Taur />
+                <Places />
+                <CardContent />
+                <BeachContent />
+                <FeedBackData />
+                <Footer />
+              </React.Fragment>
+            );
+          }}
+        />
       </Layout>
     );
   }
